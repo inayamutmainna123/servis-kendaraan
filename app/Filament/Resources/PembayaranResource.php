@@ -113,6 +113,7 @@ class PembayaranResource extends Resource
                
                 Tables\Columns\TextColumn::make('total_harga')
                     ->numeric()
+                    ->label('Total Harga')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('status'),
                 Tables\Columns\TextColumn::make('jumlah_barang')
